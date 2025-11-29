@@ -26,7 +26,7 @@ Quantum networking seeks to enable global entanglement distribution through terr
 
 
 ## Repository Structure
-![GitHub last commit](https://img.shields.io/github/last-commit/connor-a-casey/satellite-repeater-benchmark)
+![GitHub last commit](https://img.shields.io/github/last-commit/connor-a-casey/quantum-memory-satellite)
 
 The repository is organized into several main directories:
 
