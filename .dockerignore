@@ -1,0 +1,55 @@
+# Docker ignore file for quantum memory satellite simulation
+
+# Git files
+.git
+.gitignore
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# Documentation (keep essential docs)
+*.md
+!README.md
+
+# Large output files (will be generated in container)
+plots/
+data/processed/
+*.hdf5
+*.h5
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Docker files (don't copy into container)
+Dockerfile
+.dockerignore
+
+# License and assets (keep)
+!LICENSE
+!assets/

@@ -1,0 +1,9 @@
+# AUTHORS
+
+The following individuals have contributed to the project:
+
+- [Mr. Connor Casey](mailto:cacasey@umass.edu): Department of Physics, University of Massachusetts Amherst, MA, United States
+- [Mr. Albert Williams](mailto:abwillia@cs.umass.edu): College of Information and Computer Sciences, University of Massachusetts Amherst, MA, United States
+- [Ms. Catherine McCaffrey](mailto:catmccaffre@umass.edu): Department of Physics, University of Massachusetts Amherst, MA, United States
+- [Mr. Eugene Rotherham](mailto:eugene.rotherham@gmail.com): University College London (UCL), United Kingdom
+- [Mr. Nathan Darby](mailto:ndarby@ucsb.edu): Department of Physics, University of California, Santa Barbara, CA, United States
