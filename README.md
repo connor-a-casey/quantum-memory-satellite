@@ -2,8 +2,8 @@
 
 # Multi-Mode Quantum Memories for High-Throughput Satellite Entanglement Distribution
 ![Paper Status](https://img.shields.io/badge/paper-published-yellow)
-![Code Size](https://img.shields.io/github/languages/code-size/ccasey/quantum-memory-satellite)
-![Repo Size](https://img.shields.io/github/repo-size/ccasey/quantum-memory-satellite)
+![Code Size](https://img.shields.io/github/languages/code-size/connor-a-casey/quantum-memory-satellite)
+![Repo Size](https://img.shields.io/github/repo-size/connor-a-casey/quantum-memory-satellite)
 
 Quantum networking seeks to enable global entanglement distribution through terrestrial and free space channels; however, the exponential loss in these channels necessitates quantum repeaters with efficient, long lived quantum memories (QMs). Space based architectures, particularly satellite assisted links, offer a path to truly global connectivity, yet they demand QMs that are compatible with orbital factors such as infrared radiation and the unique challenges of operating aboard a satellite. In this work, we propose a multimode quantum memory (MMQM) for low Earth orbit (LEO) repeaters based on the atomic frequency comb (AFC) protocol. Our design integrates a hybrid alkali noble gas ensemble in an optical cavity, using alkali atoms for strong photon matter coupling and noble gas nuclear spins for minutes to hours coherence, all without the need for cryogenics. The architecture natively supports temporal and spectral multiplexing, enabling the storage of 100 modes to parallelize probabilistic operations and overcome light limited round trip times. Representative link budgets at $h = 500$ km with realistic apertures, $\eta_{\text{mem}}\gtrsim 70%$, and $t_{\text{buffer}}$ of several minutes predict improvements of up to two orders of magnitude in per pass success probability and instantaneous SKR relative to a memoryless dual downlink, with clear scaling in $N$. Our contributions are (i) a non cryogenic, space ready multimode memory, (ii) a systems analysis coupling mode count, storage time, and orbital geometry to achievable rate, and (iii) a near term implementation roadmap. Together, these results indicate feasibility with current to near term technology and provide a practical path toward a high rate, space enabled quantum internet.
 
@@ -26,7 +26,7 @@ Quantum networking seeks to enable global entanglement distribution through terr
 
 
 ## Repository Structure
-![GitHub last commit](https://img.shields.io/github/last-commit/ccasey/satellite-repeater-benchmark)
+![GitHub last commit](https://img.shields.io/github/last-commit/connor-a-casey/satellite-repeater-benchmark)
 
 The repository is organized into several main directories:
 
