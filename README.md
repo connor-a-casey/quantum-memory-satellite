@@ -28,7 +28,7 @@ Quantum networking seeks to enable global entanglement distribution through terr
 ## Repository Structure
 ![GitHub last commit](https://img.shields.io/github/last-commit/connor-a-casey/quantum-memory-satellite)
 
-The repository is organized into several main directories:
+The repository is organized as follows:
 
 ```
 quantum-memory-satellite/
@@ -36,12 +36,12 @@ quantum-memory-satellite/
 │   ├── quantum_memory/    # Quantum memory protocol simulation
 │   │   ├── simulation.py  # Main simulation engine
 │   │   ├── dynamics.py    # PDE dynamics and equations
-│   │   ├── utils.py       # Utility functions and analysis
+│   │   ├── utils.py       # Utility functions
 │   │   ├── plotting.py    # Visualization tools
 │   │   └── geometry.py    # Geometric calculations
 │   ├── link_analysis/     # Satellite link analysis
 │   │   └── downlink_probability.py  # Link success calculations
-│   ├── skr_calculation/   # Secret Key Rate analysis
+│   ├── skr_calculation/   # SKR analysis
 │   │   └── skr_dual_vs_buffered.py  # Dual vs buffered comparison
 │   └── main.py           # Main entry point
 ├── data/                  # Data storage
@@ -56,16 +56,6 @@ quantum-memory-satellite/
 ├── requirements.txt     # Dependencies
 ```
 
-Each directory serves a specific purpose:
-- `src/`: Contains all the source code organized by simulation component
-  - `quantum_memory/`: Quantum memory protocol simulation using Bloch-Langevin formalism
-  - `link_analysis/`: Satellite-to-ground link probability calculations
-  - `skr_calculation/`: Secret key rate analysis for dual vs buffered architectures
-- `data/`: Stores input parameters and processed simulation results
-- `plots/`: Generated visualization outputs from all simulation components
-- `assets/`: Static assets like header images and diagrams
-- `Dockerfile` & `requirements.txt`: Container and dependency management
-
 ## Dependencies
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/numpy-2.3%2B-blue)](https://numpy.org/)
@@ -77,13 +67,13 @@ Each directory serves a specific purpose:
 Full dependencies are listed in `requirements.txt`
 
 ## Repository Contents:
-- **Paper:** [Link to Published Paper](link here)
+- **Paper:** [Link to Published Paper](https://arxiv.org/abs/2512.00282)
 
 ## Usage
 
 ### Quick Start with Docker
 
-The easiest way to run the quantum memory satellite simulation is using Docker. This ensures a consistent environment with all dependencies pre-installed.
+The easiest way to run the simulation is using Docker. This ensures a consistent environment with all dependencies pre-installed.
 
 #### Prerequisites:
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) installed and running
